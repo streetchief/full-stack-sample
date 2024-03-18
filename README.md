@@ -20,6 +20,10 @@ Add your Github key inside the `secrets.json` file for advanced Github API acces
 
 Unfortunately, using `tsx` for `vite-express` seems to break some of the watching capabilities of Vite. Making server side changes triggers a reset in the front end, which happens before the express server is loaded, causing a 'Cannot GET /` error. A simple reload allows Vite to reconnect, but this is less than ideal, and would be fixed for long term usage.
 
+## Testing
+
+`yarn test` to run the limited test suite.
+
 ## Decisions
 
 ### Technical
