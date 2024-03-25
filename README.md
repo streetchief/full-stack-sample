@@ -37,7 +37,7 @@ Unfortunately, using `tsx` for `vite-express` seems to break some of the watchin
 ### Functional
 
 - Skip branches for speed and pushing straight to main; preferred method is trunk based development.
-- I enjoy functional grouping of source code, e.g. `./src/server/routes/github/` contains all github api access code in a single place. This makes it very easy to find relevant code.
+- I enjoy cross functional grouping of source code, e.g. `./src/server/routes/github/` contains all github api access code in a single place. This makes it very easy to find relevant code.
 - I like adding functional descriptions to files, e.g. `github.adapter.ts`, `github.router.ts`, etc.. This makes it easy to parse and locate relevant code.
 
 ## Dependencies
